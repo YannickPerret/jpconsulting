@@ -1,0 +1,42 @@
+
+    {
+        "Services": 
+        [
+            {
+            "title": "Assurance",
+            "content": "<ul><li>Gestion du protefeuille</li><li>Comparaison</li><li> TESSSSSSST</li></ul>",
+            "image" : "service1.jpg",
+            "id": 1
+            },
+            {
+            "author": "Hypothèque",
+            "content": "<ul><li>Gestion du protefeuille</li><li>Comparaison</li><li> TESSSSSSST</li></ul>",
+            "image": "service1.jpg",
+            "id": 2
+            },
+            {
+            "author": "Assurance Vie",
+            "content": "<ul><li>Gestion du protefeuille</li><li>Comparaison</li><li> TESSSSSSST</li></ul>",
+            "image": "service1.jpg",
+            "id": 3
+            },
+            {
+            "author": "Administratif",
+            "content": "<ul><li>Gestion du protefeuille</li><li>Comparaison</li><li> TESSSSSSST</li></ul>",
+            "image": "service1.jpg",
+            "id": 4
+            },
+            {
+            "author": "Administratif",
+            "content": "<ul><li>Gestion du protefeuille</li><li>Comparaison</li><li> TESSSSSSST</li></ul>",
+            "image": "service1.jpg",
+            "id": 5
+            },
+            {
+            "author": "Administratif",
+            "content": "<ul><li>Gestion du protefeuille</li><li>Comparaison</li><li> TESSSSSSST</li></ul>",
+            "image": "service1.jpg",
+            "id": 6
+            }
+        ]
+    }

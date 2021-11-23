@@ -1,0 +1,46 @@
+.jp-header-content{
+    display : flex;
+    justify-content: center;
+    background: $colorNavBackground;
+    max-height : 8vh;
+
+    .jp-navigation{
+        display :flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        height : 8vh;
+        width : 70vw;
+        align-items: center;
+
+        a{
+            font-family: $fontNavLink;
+            text-decoration: none;
+            text-transform: uppercase;
+            color : rgb(39, 39, 39);
+            font-size: 15px;
+            position: relative;
+
+        }
+        a:hover{
+            font-size: 16.5px;
+            border-bottom : 2px solid rgba(0, 0, 0, 0.65);
+            transition-property: all;
+            transition-duration: .3s;
+            transition-timing-function: cubic-bezier(0,0,.2,1);
+            border-radius: 4px;
+            
+        }
+        a.spaceBetween{
+            margin-right: 10vw;
+        }
+    }
+
+    .jp-logo{
+        img{
+            position: absolute;
+            width: 220px;
+            height: 220px;
+            left : 44vw;
+        }
+    }
+}
