@@ -5,13 +5,13 @@ import Slider from './Slider';
 
 const Header = () => {
     return (
-        <div>
+        <>
             <nav className="jp-header-content">
                 <Navigation />
                 <Logo />
             </nav>
             <Slider />
-        </div>
+        </>
     );
 };
 

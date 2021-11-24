@@ -1,5 +1,5 @@
 .jp-services{
-    margin-top:3vw;
+    margin-top: 10vh;
     padding-bottom: 5vh;
     background: $color2;
 
@@ -65,9 +65,6 @@
             }
 
 
-
-
-
             .Cards-Mini{
                 display : flex;
                 flex-direction: column;
@@ -123,10 +120,13 @@
             }
           }
 
+
+
         .service-show{
             display:flex;
             flex-direction: column;
             width: 69vw;
+            //height: 75vh; POUR ENELVER LE MINI CHARGEMENT
             height: auto;
             border-radius: 1%;
             border-top-left-radius: 2%;
@@ -180,6 +180,57 @@
                 }
             }
         }
+
+        .service-show {
+            animation-name: FadeIn;
+            animation-duration: 2s;
+            transition-timing-function: ease-in;
+          }
+          
+          @keyframes FadeIn {
+            0% {
+              opacity: 0;
+            }
+            100% {
+              opacity: 1;
+            }
+          }
+          
+          @-moz-keyframes FadeIn {
+            0% {
+              opacity: 0;
+            }
+            100% {
+              opacity: 1;
+            }
+          }
+          
+          @-webkit-keyframes FadeIn {
+            0% {
+              opacity: 0;
+            }
+            100% {
+              opacity: 1;
+            }
+          }
+          
+          @-o-keyframes FadeIn {
+            0% {
+              opacity: 0;
+            }
+            100% {
+              opacity: 1;
+            }
+          }
+          
+          @-ms-keyframes FadeIn {
+            0% {
+              opacity: 0;
+            }
+            100% {
+              opacity: 1;
+            }
+          }
     }
     
 }

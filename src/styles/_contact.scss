@@ -1,0 +1,54 @@
+.jp-contact{
+    margin-top : 10vh;
+
+    .contact-container{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        max-width: 70vw;
+
+        .contact-title{
+            display: flex;
+            justify-content: flex-start;
+    
+            h2{
+                font-family: $fonth2;
+                color: $color2;
+            }
+        }
+        .contact-subtitle{
+            text-justify: justify;
+        }
+        .contact-method{
+            display: flex;
+            justify-content: space-evenly;
+            margin-top : 5vh;
+            img{
+                width: 5vw;
+                border-radius: 20%;
+            }
+        }
+        
+        .contact-content{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            margin-top : 5vw;
+            .contact-map{
+                padding-right: 3vw;
+                padding-left: 3vw;
+                height: 35vh;
+                width: 100% ;
+            }
+    
+            .contact-form
+            {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+        }
+        
+    }
+}
