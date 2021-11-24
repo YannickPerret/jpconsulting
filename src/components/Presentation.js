@@ -12,7 +12,7 @@ const presentation = () => {
                         Ut vestibulum vulputate risus, a malesuada libero volutpat ut. Donec ac placerat turpis. Curabitur pellentesque urna nec efficitur tristique. <br />Etiam rhoncus elit nec hendrerit convallis. Praesent ac dolor congue, cursus metus a, egestas nunc. Nullam aliquet viverra felis, nec sollicitudin orci. Duis at nisi eget ex rutrum ullamcorper et vitae ante. Suspendisse convallis neque et arcu faucibus aliquet. Donec in erat risus. Praesent et libero dolor. Mauris eros mi, dignissim id malesuada laoreet, ornare non magna. Sed tempor iaculis lacus vel imperdiet.
                     </p>
 
-                    <span className="body-hastag">#Réseautage</span><span className="body-hastag">#Assurance</span><span className="body-hastag">#Hypothèque</span><span className="body-hastag">#Portefeuille</span><span className="body-hastag">#Business</span><span className="body-hastag">#Salutçava?</span>
+                    <div className="social"><span className="body-hastag">#Réseautage</span><span className="body-hastag">#Assurance</span><span className="body-hastag">#Hypothèque</span><span className="body-hastag">#Portefeuille</span><span className="body-hastag">#Business</span><span className="body-hastag">#Salutçava?</span></div>
                 </div>
                 <img src='./img/julienPerret.png' alt="Portrait de Julien Perret pour JP Consulting" className="portrait"/>
             </div>

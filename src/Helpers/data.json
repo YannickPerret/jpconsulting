@@ -4,38 +4,50 @@
         [
             {
             "title": "Assurance",
-            "content": "<ul><li>Gestion du protefeuille</li><li>Comparaison</li><li> TESSSSSSST</li></ul>",
+            "contentMin":"Gestion du protefeuille, Comparaison, assurance vie",
+            "content": "Gestion du protefeuille, Comparaison, assurance vie",
             "image" : "service1.jpg",
+            "price" : ["Contactez-nous pour un devis"],
             "id": 1
             },
             {
-            "author": "Hypothèque",
-            "content": "<ul><li>Gestion du protefeuille</li><li>Comparaison</li><li> TESSSSSSST</li></ul>",
+            "title": "Hypothèque",
+            "contentMin":"Gestion du protefeuille, Comparaison, assurance vie",
+            "content": "Gestion du protefeuille Comparaison TESSSSSSST",
             "image": "service1.jpg",
+            "price": [300, 550],
             "id": 2
             },
             {
-            "author": "Assurance Vie",
-            "content": "<ul><li>Gestion du protefeuille</li><li>Comparaison</li><li> TESSSSSSST</li></ul>",
+            "title": "Assurance Vie",
+            "contentMin":"Gestion du protefeuille, Comparaison, assurance vie",
+            "content": "Gestion du protefeuille Comparaison TESSSSSSST",
             "image": "service1.jpg",
+            "price": [300, 550],
             "id": 3
             },
             {
-            "author": "Administratif",
-            "content": "<ul><li>Gestion du protefeuille</li><li>Comparaison</li><li> TESSSSSSST</li></ul>",
+            "title": "Administratif",
+            "contentMin":"Gestion du protefeuille, Comparaison, assurance vie",
+            "content": "Gestion du protefeuille Comparaison TESSSSSSST",
             "image": "service1.jpg",
+            "price": [300, 550],
             "id": 4
             },
             {
-            "author": "Administratif",
-            "content": "<ul><li>Gestion du protefeuille</li><li>Comparaison</li><li> TESSSSSSST</li></ul>",
+            "title": "informatique",
+            "contentMin":"Gestion du protefeuille, Comparaison, assurance vie",
+            "content": "Gestion du protefeuille Comparaison TESSSSSSST",
             "image": "service1.jpg",
+            "price": [300, 550],
             "id": 5
             },
             {
-            "author": "Administratif",
-            "content": "<ul><li>Gestion du protefeuille</li><li>Comparaison</li><li> TESSSSSSST</li></ul>",
+            "title": "Recrutement",
+            "contentMin":"Gestion du protefeuille, Comparaison, assurance vie",
+            "content": "Gestion du protefeuille Comparaison TESSSSSSST",
             "image": "service1.jpg",
+            "price": [300, 550],
             "id": 6
             }
         ]

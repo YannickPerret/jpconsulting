@@ -7,6 +7,10 @@ $color4: #3A3142;
 $colorNavBackground : #f0e7dc;
 $colorNavLink: #61dafb;
 
+$textFontsize : 17px;
+$titleFontSizeH1 : 32px;
+$titleFontSizeH2 : 27px;
+$titleFontSizeH3 : 23px;
 
 $fontNavLink : Montserrat-Regular;
 @font-face {
@@ -43,3 +47,19 @@ body {
       monospace;
   }
   
+h1{
+  font-size: $titleFontSizeH1;
+  text-transform: uppercase;
+}
+h2{
+  font-size: $titleFontSizeH2;
+  text-transform: uppercase;
+}
+h3{
+  font-size : $titleFontSizeH3;
+  text-transform: uppercase;
+}
+
+p{
+  font-size: $textFontsize;
+}

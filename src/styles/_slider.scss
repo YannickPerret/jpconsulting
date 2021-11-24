@@ -40,7 +40,6 @@
   
   .slider-button {
     background: rgb(228, 45, 45);
-    
     border-radius: 5%;
     text-transform: uppercase;
     border: none;
@@ -69,13 +68,15 @@
     animation: fadeIn 0.5s;
   }
 
+
+  //transform: translateX(35%); pour que ce soit bon au format mobile
   .cover-mouse{
     text-transform: uppercase;
     display : flex;
     position : absolute;
     bottom: 2.5vh;
     align-items: center;
-    transform: translateX(370%);
+    transform: translateX(45vw);
     color:rgba(255, 255, 255, 0.8);
 
     svg{
@@ -83,4 +84,9 @@
       margin-right : 0.8vw;
       color:rgba(255, 255, 255, 0.8);
     }
+  }
+
+
+  @media (max-width: 800px) {
+    
   }

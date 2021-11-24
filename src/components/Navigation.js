@@ -4,19 +4,19 @@ import { NavLink } from 'react-router-dom';
 const Navigation = () => {
     return (
         <div className="jp-navigation">
-            <NavLink to="/" activeClassName="active">
+            <NavLink to="/">
                 Accueil
             </NavLink>
 
-            <NavLink to="#presentation" activeClassName="active" className="spaceBetween">
+            <NavLink to="#presentation"  className="spaceBetween">
                 Présentation
             </NavLink>
 
-            <NavLink to="#prestation" activeClassName="active">
+            <NavLink to="#prestation" >
             Nos services
             </NavLink>
 
-            <NavLink to="#nous-contacter" activeClassName="active">
+            <NavLink to="#nous-contacter" >
                 Contact
             </NavLink>
         </div>
