@@ -10,7 +10,8 @@ $colorNavLink: #61dafb;
 $textFontsize : 17px;
 $titleFontSizeH1 : 32px;
 $titleFontSizeH2 : 27px;
-$titleFontSizeH3 : 23px;
+$titleFontSizeH3 : 24px;
+$titleFontSizeH4 : 22px;
 
 $fontNavLink : Montserrat-Regular;
 @font-face {
@@ -57,6 +58,10 @@ h2{
 }
 h3{
   font-size : $titleFontSizeH3;
+  text-transform: uppercase;
+}
+h4{
+  font-size: $titleFontSizeH4;
   text-transform: uppercase;
 }
 

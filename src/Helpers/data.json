@@ -1,54 +1,66 @@
-
     {
         "Services": 
         [
             {
-            "title": "Assurance",
-            "contentMin":"Gestion du protefeuille, Comparaison, assurance vie",
-            "content": "Gestion du protefeuille, Comparaison, assurance vie",
-            "image" : "service1.jpg",
-            "price" : ["Contactez-nous pour un devis"],
-            "id": 1
+                "title": "Assurance",
+                "contentMin":"Gestion du protefeuille, Comparaison, assurance vie",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec mauris est. Sed lobortis elementum justo, non ullamcorper urna mollis ut. Donec nec sem commodo, hendrerit neque et, fringilla risus. Vivamus sollicitudin gravida ultricies. Donec nibh lacus, viverra sed aliquam at, semper at ex. Nunc augue urna, auctor at diam sed, pretium tempor nisi. Nunc cursus orci ut ultricies scelerisque. Maecenas est augue, volutpat at elit nec, mattis feugiat lorem. Suspendisse quis dolor odio. Sed vel nunc ac libero pulvinar congue quis vitae urna. Integer quis hendrerit justo, eget rutrum enim. Fusce eu leo volutpat, finibus augue sit amet, venenatis justo. Fusce ullamcorper nisl nibh, in porttitor nibh placerat porttitor.",
+                "image" : "service1.jpg",
+                "avantage": ["avantage1", "avantage2", "avantage3", "avantage4"],
+                "prestation": ["prestation1", "prestation2", "prestation3", "prestation4"],
+                "price" : ["Comptes tenu des différentes possiblités, je vous prie de me contacter par email afin d'obtenir un devis"],
+                "id": 1
+            },
+
+            {
+                "title": "Hypothèque",
+                "contentMin":"Gestion du protefeuille, Comparaison, assurance vie",
+                "content": "Gestion du protefeuille Comparaison TESSSSSSST",
+                "image": "service1.jpg",
+                "avantage": ["avantage1", "avantage2", "avantage3", "avantage4"],
+                "prestation": ["prestation1", "prestation2", "prestation3", "prestation4"],
+                "price": [300, 550],
+                "id": 2
             },
             {
-            "title": "Hypothèque",
-            "contentMin":"Gestion du protefeuille, Comparaison, assurance vie",
-            "content": "Gestion du protefeuille Comparaison TESSSSSSST",
-            "image": "service1.jpg",
-            "price": [300, 550],
-            "id": 2
+                "title": "Assurance Vie",
+                "contentMin":"Gestion du protefeuille, Comparaison, assurance vie",
+                "content": "Gestion du protefeuille Comparaison TESSSSSSST",
+                "image": "service1.jpg",
+                "avantage": ["avantage1", "avantage2", "avantage3", "avantage4"],
+                "prestation": ["prestation1", "prestation2", "prestation3", "prestation4"],
+                "price": [300, 550],
+                "id": 3
             },
             {
-            "title": "Assurance Vie",
-            "contentMin":"Gestion du protefeuille, Comparaison, assurance vie",
-            "content": "Gestion du protefeuille Comparaison TESSSSSSST",
-            "image": "service1.jpg",
-            "price": [300, 550],
-            "id": 3
+                "title": "Administratif",
+                "contentMin":"Gestion du protefeuille, Comparaison, assurance vie",
+                "content": "Gestion du protefeuille Comparaison TESSSSSSST",
+                "image": "service1.jpg",
+                "avantage": ["avantage1", "avantage2", "avantage3", "avantage4"],
+                "prestation": ["prestation1", "prestation2", "prestation3", "prestation4"],
+                "price": [300, 550],
+                "id": 4
             },
             {
-            "title": "Administratif",
-            "contentMin":"Gestion du protefeuille, Comparaison, assurance vie",
-            "content": "Gestion du protefeuille Comparaison TESSSSSSST",
-            "image": "service1.jpg",
-            "price": [300, 550],
-            "id": 4
+                "title": "informatique",
+                "contentMin":"Gestion du protefeuille, Comparaison, assurance vie",
+                "content": "Gestion du protefeuille Comparaison TESSSSSSST",
+                "image": "service1.jpg",
+                "avantage": ["avantage1", "avantage2", "avantage3", "avantage4"],
+                "prestation": ["prestation1", "prestation2", "prestation3", "prestation4"],
+                "price": [300, 550],
+                "id": 5
             },
             {
-            "title": "informatique",
-            "contentMin":"Gestion du protefeuille, Comparaison, assurance vie",
-            "content": "Gestion du protefeuille Comparaison TESSSSSSST",
-            "image": "service1.jpg",
-            "price": [300, 550],
-            "id": 5
-            },
-            {
-            "title": "Recrutement",
-            "contentMin":"Gestion du protefeuille, Comparaison, assurance vie",
-            "content": "Gestion du protefeuille Comparaison TESSSSSSST",
-            "image": "service1.jpg",
-            "price": [300, 550],
-            "id": 6
+                "title": "Recrutement",
+                "contentMin":"Gestion du protefeuille, Comparaison, assurance vie",
+                "content": "Gestion du protefeuille Comparaison TESSSSSSST",
+                "image": "service1.jpg",
+                "avantage": ["avantage1", "avantage2", "avantage3", "avantage4"],
+                "prestation": ["prestation1", "prestation2", "prestation3", "prestation4"],
+                "price": [300, 550],
+                "id": 6
             }
         ]
     }

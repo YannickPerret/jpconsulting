@@ -28,9 +28,35 @@ const Service = () => {
                         <h3>{serviceChoise.title}</h3>
                     </header>
                     <article className="show-body">
-                        {serviceChoise.content}
-                    
+                        <div className="show-description"> 
+                            {serviceChoise.content}
+                        </div>
+
+                        <div className="show-presentation"> 
+                            <div>
+                                <h4>Nos prestations</h4>
+                                <ul>
+                                    {serviceChoise.avantage.map((avantage) =>(
+                                            <li>{avantage}</li>
+                                        ))}
+                                </ul>
+                            </div>
+
+                            <div> 
+                                <h4>Vos avantages </h4>
+                                    <ul>
+                                        {serviceChoise.avantage.map((avantage) =>(
+                                            <li>{avantage}</li>
+                                        ))}
+                                    </ul>
+                            </div>
+                        </div>
                         
+                        <div className="show-tarification"> 
+                        
+                            <h4 style={{textAlign:'center'}}>Tarifications</h4>
+                            <p>{serviceChoise.price ? serviceChoise.price : "tet"}</p>
+                        </div>
                         
                     </article>
                 </section>

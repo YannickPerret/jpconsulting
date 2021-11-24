@@ -6,6 +6,7 @@
     .container{
         margin: auto;
         max-width: 70vw;
+        
 
         .body-title{
             padding-top : 5vh;
@@ -126,16 +127,22 @@
             display:flex;
             flex-direction: column;
             width: 69vw;
-            height: 60vh;
+            height: auto;
+            border-radius: 1%;
+            border-top-left-radius: 2%;
+            border-top-right-radius: 2%;
             
             background : white;
             box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
 
             .show-header{
+                height: 20vh;
+
                 img{
                     width: 69vw;
                     height: 20vh;
                     object-fit: cover;
+                    border-radius: 2%;
                 }
                 h3{
                     background : rgba($color: $colorNavBackground, $alpha: 0.7);
@@ -144,8 +151,33 @@
                     bottom : 14vh;
                     text-align: center;
                     color: black;
-                }
+                }   
+            }
+
+            .show-body{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                padding-left : 5vh;
+                padding-right: 5vh;
+                flex-wrap: wrap;
                 
+
+                margin-top:3vh;
+
+                .show-description{
+                    text-align: justify;
+                
+                }
+                .show-presentation{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-evenly;
+                }
+
+                .show-tarification{
+                    align-self: center;
+                }
             }
         }
     }
