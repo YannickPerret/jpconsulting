@@ -6,6 +6,7 @@
         flex-direction: column;
         margin: auto;
         max-width: 70vw;
+        height: 90vh;
 
         .contact-title{
             display: flex;
@@ -30,22 +31,29 @@
         }
         
         .contact-content{
+
             display: flex;
             flex-direction: row;
-            justify-content: space-evenly;
+            justify-content: space-around;
             margin-top : 5vw;
+
             .contact-map{
-                padding-right: 3vw;
-                padding-left: 3vw;
                 height: 35vh;
-                width: 100% ;
+                width: 50% ;
             }
     
             .contact-form
             {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
+                h3{
+                    text-align: center;
+                    margin: 0;
+                    margin-bottom: 1.5vw;
+                }
+
+                form{
+                    display: flex;
+                    flex-direction: column;
+                }
             }
 
         }
