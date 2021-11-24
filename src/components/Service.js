@@ -22,6 +22,7 @@ const Service = () => {
                 {serviceIsOpen && 
                 <>
                 <div className="btn-container"><button onClick={(() => {setServiceIsopen(false)})} >{"< Revenir à la liste >"}</button></div>
+               
                 <section className="service-show">
                     <header className="show-header"> 
                         <img src={"./img/services/"+serviceChoise.image} alt={"Image en cover de la prestation "+serviceChoise.title}/>
