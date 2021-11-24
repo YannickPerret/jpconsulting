@@ -52,6 +52,9 @@ const Contact = () => {
 
                             <label htmlfor="message">Votre message *</label>
                             <textarea placeholder="Votre message" rows={10} cols={50}></textarea>
+
+                            <input type="button" value="Envoyer ma demande" />
+                            <input type="button" value="Annuler" />
                         </form>
                     </div>
                 </div>
