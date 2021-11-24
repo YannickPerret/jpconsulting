@@ -15,7 +15,10 @@ const Footer = () => {
                 </div>
                         
                 <div>
-                    <ul><li>Site créer avec ♥ par Yannick Perret </li></ul>
+                    <ul>
+                        <li>Développer avec ♥ par Yannick Perret </li>
+                        <li>Tout droit réservé © JP Consulting 2021-2022</li>
+                    </ul>
                 </div>
 
                 <div>
@@ -23,10 +26,9 @@ const Footer = () => {
                         <li>Politique de confidentialité</li>
                         <li>Condition générale d'utilisation</li>
                         <li>Un site plutôt génial</li>
-                        <li>Tout droit réservé © JP consulting 2021-2022</li>
+                        
                         
                     </ul>
-
                 </div>
             </div>
         </div>
