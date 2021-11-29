@@ -14,7 +14,9 @@ const presentation = () => {
 
                     <div className="social"><span className="body-hastag">#Réseautage</span><span className="body-hastag">#Assurance</span><span className="body-hastag">#Hypothèque</span><span className="body-hastag">#Portefeuille</span><span className="body-hastag">#Business</span><span className="body-hastag">#Salutçava?</span></div>
                 </div>
-                <img src='./img/julienPerret.png' alt="Portrait de Julien Perret pour JP Consulting" className="portrait"/>
+                <div className="portrait" >
+                    <img src='./img/julienPerret.png' alt="Portrait de Julien Perret pour JP Consulting" className="portrait"/>
+                </div>
             </div>
         </div>
     );
