@@ -1,4 +1,6 @@
 import React from "react";
+
+
 const Slider = () => {
 
     return (
@@ -17,7 +19,6 @@ const Slider = () => {
                 </svg>
                 <span>Scroller pour découvrir</span>  
             </div>
-            
         </div>
     );
 };

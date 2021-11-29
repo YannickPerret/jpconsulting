@@ -71,22 +71,18 @@
 
   //transform: translateX(35%); pour que ce soit bon au format mobile
   .cover-mouse{
+    display: flex;
     text-transform: uppercase;
-    display : flex;
     position : absolute;
     bottom: 2.5vh;
-    align-items: center;
-    transform: translateX(45vw);
+    left : 51vw;
+    transform: translateX(-49%);
     color:rgba(255, 255, 255, 0.8);
-
+    align-items: center;
+    
     svg{
       overflow: hidden;
       margin-right : 0.8vw;
       color:rgba(255, 255, 255, 0.8);
     }
-  }
-
-
-  @media (max-width: 800px) {
-    
   }

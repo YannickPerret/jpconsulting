@@ -64,7 +64,7 @@ const Service = () => {
                 </>}
 
 
-                <section className="service-article">
+                <section className="cards-lists">
                         {Data.Services
                         .sort((a, b) => a.id - b.id)
                         .map((service) => (

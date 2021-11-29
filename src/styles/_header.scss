@@ -1,15 +1,13 @@
 .jp-header-content{
-    display : flex;
-    justify-content: center;
     background: $colorNavBackground;
-    max-height : 8vh;
+    
 
     .jp-navigation{
         display :flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-evenly;
-        height : 8vh;
-        width : 70vw;
+        height: 15vh;
+        margin: auto;
         align-items: center;
 
         a{
@@ -17,49 +15,71 @@
             text-decoration: none;
             text-transform: uppercase;
             color : rgb(39, 39, 39);
-            font-size: 15px;
-            position: relative;
-
+            font-size: 18px;
+            line-height: 25px;
         }
-        a:hover{
-            font-size: 16.5px;
-            border-bottom : 2px solid rgba(0, 0, 0, 0.65);
-            transition-property: all;
-            transition-duration: .3s;
-            transition-timing-function: cubic-bezier(0,0,.2,1);
-            border-radius: 4px;
-            
-        }
-        a.spaceBetween{
-            margin-right: 10vw;
-        }
+        
     }
 
     .jp-logo{
-        img{
-            position: absolute;
-            width: 220px;
-            height: 220px;
-            left : 44vw;
-        }
+        width: 220px;
+        height: 220px;
+        position: absolute;
+        left : 50vw;
+        
+        transform: translateX(-50%);
     }
 
-    @media (max-width: 800px) {
+    @media only screen and (min-width: 640px){
         .jp-navigation {
-          flex-direction: column;
-
-            a.spaceBetween{
-                margin-right: 0;
-            }
-        }
+            flex-direction: row;
+            height : 8vh;
+            width : 70vw;
         
 
-        .jp-logo{
-            img{
-                top: 7vh;
-                left : 35vw;
+        a{
+            font-size: 15px;
+            line-height: initial;
+        
+            &:hover{
+                font-size: 16.5px;
+                border-bottom : 2px solid rgba(0, 0, 0, 0.65);
+                transition-property: all;
+                transition-duration: .3s;
+                transition-timing-function: cubic-bezier(0,0,.2,1);
+                border-radius: 4px;
+                
             }
+
+            &.spaceBetween{
+                margin-right: 10vw;
+            }
+
+        }
+        .jp-logo{
+            top: 4%;
+            left: 50%;
+            transform: translate(-50%, -12%);
+        }
         }
     }
+
+    @media only screen and (min-width: 800px){
+        .jp-logo{
+            top: 4%;
+            left: 50%;
+            transform: translate(-50%, -12%);
+        }
+    }
+
+    @media only screen and (min-width: 1200px){
     
+    }
+    
+    @media only screen and (min-width: 1980px){
+
+    }
+
+
+
 }
