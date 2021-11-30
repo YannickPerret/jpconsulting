@@ -22,16 +22,17 @@
 
         .cards-lists{
             display: flex;
-            flex-direction: row;
+            justify-content: flex-start;
             flex-wrap: wrap;
+            width: 100%;
         }
 
         .cards{
           display: flex;
           flex-direction: column;
-          flex-basis: 32%;
-
-          box-sizing: border-box;
+          width: 430px;
+          height: auto;
+     
           margin: 1rem .50em;
 
             img{
@@ -56,11 +57,7 @@
                 }
               }
         }
-        @media only screen and (max-width: 860px){
-            .cards{
-              flex-basis: 100%;
-            }
-        }
+        
 
 
         .btn-container {
@@ -196,5 +193,23 @@
             }
         }
     }
+
+    @media only screen and (max-width: 860px){
+      .container{
+        max-width: 100%;
+        text-align: center;
+      
+        .cards{
+
+          .banderolle{
+            width: 95.4%;
+            height: auto;
+            margin-top: 18%;
+          }
+        }
+      
+      }
+
+  }
     
 }
