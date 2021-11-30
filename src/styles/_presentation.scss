@@ -67,6 +67,14 @@
 
     
     }
+
+
+    @media only screen and (max-width: 1280px){
+        .container{
+            flex-direction: column;
+        }
+    }
+
 /*
     @media only screen and (min-width: 1280px){
         .container{
